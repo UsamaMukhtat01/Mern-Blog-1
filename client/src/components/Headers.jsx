@@ -50,7 +50,7 @@ export default function Headers() {
   return (
     <Navbar className="border-b-2" fluid rounded>
       <Link to="/" className="self-center whitespace-nowrap text-sm sm:text-xl font-semibold dark:text-white">
-        <span className="px-2 py-1 bg-gradient-to-br from-green-400 to-blue-600 rounded-lg text-white">Usama</span>
+        <span className="px-2 py-1 bg-gradient-to-br from-green-400 to-blue-600 rounded-lg text-white">Usama's</span>
         <span>Blog</span>
       </Link>
       <form onSubmit={handleSubmit}>
