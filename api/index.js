@@ -58,7 +58,7 @@ app.use("/api/auth", authRoutes);
 app.use("/api/post", postRoutes);
 app.use("/api/comment", commentRoutes);
 
-app.use(express.static("/client/dist"));
+app.use(express.static(path.join(_dirname, "client", "dist")));
 
 app.get("*", (req, res) => {
   res.sendFile(path.resolve(_dirname, "client", "dist", "index.html"));
